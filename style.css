@@ -1,0 +1,20 @@
+div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 2px  solid black;
+    margin: auto;
+    margin-top: 200px;
+    transition-property: all;
+    transition: all 1s ease-in;
+}
+div:hover{
+    /* background-color: yellow; */
+    /* color: blue; */
+    /* transform: rotate(180deg); */
+    /* transform: scale(2); */
+    transform: skew(150deg);
+}
+div:active{
+    background-color: chocolate;
+}
